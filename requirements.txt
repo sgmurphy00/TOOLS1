@@ -1,2 +1,9 @@
+# Data Processing
 pandas
 numpy
+
+# Learning Methods
+tensorflow
+
+# Visualizations
+matplotlib
