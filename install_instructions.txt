@@ -1,0 +1,27 @@
+Author: Paul Scheidt
+Date: 10.5.2024
+
+Hardware Requirements:
+
+For TensorFlow2:
+- Python 3.8-3.11
+- pip version > 19.0 for Windows
+- pip version >20.3 for macOS
+- Ubuntu 16.04 of Later
+- Windows 7 or later
+- macOS 10.12.6 of later
+- WSL2 via Windows 10 19044 or higher including GPUs. 
+
+Install Steps:
+
+python -m venv ./<virtual environment name>
+
+source <virtual environment name>/bin/activate
+
+cd <virtual environment name>
+
+pip install tensorflow
+
+pip install adversarial-robustness-toolbox
+
+
