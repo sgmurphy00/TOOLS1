@@ -2,15 +2,26 @@ You are supposed to present your project in form of a slide deck which should ro
 
 1. Problem description and importance
 
+Can we identify adversarial data from a GAN attack affecting a image classifier. Is there a statistically detectable effect of adversarially generated data vs true data. Can we identify which images are adversarial data that are the by product of the GAN Attack. Develop a Baysain model. 
+
 2. Initial insights gathered (This could be the EDA you have done yet)
+- Develop CNN for Baseline
+- Develop simple GAN Attack to degrade baseline
+- Show diff of results between the two as intial EDA
 
 3. Dataset and how the data was acquired.
+- https://www.kaggle.com/code/agajorte/sat-6-aerial-images-classification
 
 4. Initial hypothesis (What do you think the final results will help you achieve)
 
+
 5. Modeling and/or analysis techniques you plan to use.
+- Bayesian models?
+- Reforcement Learning? (Random Forest, Decision Trees, SVMs, K-Means, Clusterings)
+- Generic Algorithms?
 
 6. Problems that you're facing
+
 
 7. Project timeline (optional)
 
