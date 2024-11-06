@@ -1,0 +1,39 @@
+You are supposed to present your project in form of a slide deck which should roughly be around 5 minutes. At least one member, preferably both, should present. The presentation should be brief and should not take much time to prepare. I would expect you to include the following about your project:
+
+1. Problem description and importance
+
+Can we identify adversarial data from a GAN attack affecting a image classifier. Is there a statistically detectable effect of adversarially generated data vs true data. Can we identify which images are adversarial data that are the by product of the GAN Attack. 
+
+2. Initial insights gathered (This could be the EDA you have done yet)
+- Develop CNN for Baseline
+- Develop simple GAN Attack to degrade baseline
+- Show diff of results between the two as intial EDA
+
+- Loss function: Parse Categorical Cross Entropy <- model.
+
+3. Dataset and how the data was acquired.
+- https://www.kaggle.com/code/agajorte/sat-6-aerial-images-classification
+
+4. Initial hypothesis (What do you think the final results will help you achieve)
+
+-  Can we identify which images are adversarial data that are the by product of the GAN Attack.
+
+5. Modeling and/or analysis techniques you plan to use.
+- Bayesian models?
+- Reforcement Learning? (Random Forest, Decision Trees, SVMs, K-Means, Clusterings)
+- Generic Algorithms?
+
+
+6. Problems that you're facing
+
+
+7. Project timeline (optional)
+- First step, build CNN classifier, implement on collab, document environment requirements
+- Second Step, implement GAN Attack, leveraging home-brew solution or ART toolbox. Leverage a Fast Gradient Attack. Take the fundamental math around these attacks and implement a solution.
+- Step 3: Perform EDA highlighting model perform drop
+- Step 4: Perform literature on methods to identify GAN-Attacks
+- Step 5: Perform trade-study of analysis techiques betweek Bayesian or Reforement Learning
+
+
+
+Please make sure to include the above-mentioned requirements. This shouldn't take long and you should keep your deck simple. Primarily, emphasize the need or impact of your project.
