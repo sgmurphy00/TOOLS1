@@ -29,15 +29,34 @@ between the adversarial and clean samples.
 
 ## Data Requirements
 As this project has been carried out primarily on personal computers, input data must be both:
-A) sufficiently coarse for acceptable processing times, and
-B) sufficiently ample to build a robust classifier.
-Due to a collective interest and background in remote sensing, we selected the DEEPSAT-6 satellite imagery dataset.
-This dataset includes ~400,000 image arrays and labels of dimension (28,28,4). Data fall into one of six terrain 
+A: sufficiently coarse for acceptable processing times, and
+B: sufficiently ample to build a robust classifier.
+Due to a collective interest and background in remote sensing, we selected the DEEPSAT-6 satellite imagery dataset. (Public Domain)
+This dataset includes ~405,000 image arrays and labels of dimension (28,28,4). Data fall into one of six terrain 
 categories: Barren land, road, construction, treecover, grassland, and water. Data takes roughly 6gB storage altogether.
+Available at https://www.kaggle.com/datasets/crawford/deepsat-sat6
 
-## Model Design
-\\simple cnn, break initial_dataexploration.ipynb into assoc. .py or .ipynb for specified functionality
-    \\data prep, model training, fgsm generation, visualization notebooks, helper functions`
+## Model Architecture
+
+![Alt text](images/modelarch.png)
+
+## Key Insights
+
+Testing accuracy decreased from 94% to 53% in initial modeling efforts with an epsilon value of 1.
+Epsilon value is the ‘perturbation’ scaling factor; higher epsilon values return ‘more poisoned’ data. Effective attacks use a low enough epsilon to remain undetected while still disrupting model performance.
+With a more robust model, the below shown curve reflects accuracy vs epsilon.
+
+![Alt text](images/figures/accuracyEpoch.png)
+![Alt text](images/figures/lossEpoch.png)
+
+Simple model metrics:
+Adversarial Mean: [113.3134  115.37391 114.29599 108.61201]
+Adversarial Std: [54.51268  47.67143  36.985027 76.23391 ]
+Clean Mean: [113.27197321 115.36691607 114.38267347 109.08337219]
+Clean Std: [54.65728377 47.75091567 37.07641239 76.38291389]
+
+Visual differences are near imperceptible:
+![Alt text](images/exampleImages.png)
 
 # Contributors
 @sgmurphy00
