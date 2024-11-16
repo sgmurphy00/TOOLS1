@@ -46,8 +46,7 @@ Testing accuracy decreased from 94% to 53% in initial modeling efforts with an e
 Epsilon value is the ‘perturbation’ scaling factor; higher epsilon values return ‘more poisoned’ data. Effective attacks use a low enough epsilon to remain undetected while still disrupting model performance.
 With a more robust model, the below shown curve reflects accuracy vs epsilon.
 
-![Alt text](images/figures/accuracyEpoch.png)
-![Alt text](images/figures/lossEpoch.png)
+![Alt text](images/figures/accuracyEpoch.png) ![Alt text](images/figures/lossEpoch.png)
 
 Simple model metrics:
 Adversarial Mean: [113.3134  115.37391 114.29599 108.61201]
