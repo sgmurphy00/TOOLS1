@@ -64,7 +64,7 @@ Complex model confusion matrices under different epsilon values:
 ![Alt text](images/con3.png)
 ![Alt text](images/confMatrices.png)
 
-Visual differences are near imperceptible:
+Visual differences are near imperceptible at epsilon = 5:
 
 ![Alt text](images/adverseThenClean.png)
 
