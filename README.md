@@ -55,6 +55,7 @@ Clean Mean: [113.27197321 115.36691607 114.38267347 109.08337219]
 Clean Std: [54.65728377 47.75091567 37.07641239 76.38291389]
 
 Visual differences are near imperceptible:
+
 ![Alt text](images/exampleImages.png)
 
 # Contributors
