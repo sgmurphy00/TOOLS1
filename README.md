@@ -59,6 +59,9 @@ Clean Std: [54.65728377 47.75091567 37.07641239 76.38291389]
 
 Complex model confusion matrices under different epsilon values:
 
+![Alt text](images/con1.png)
+![Alt text](images/con2.png)
+![Alt text](images/con3.png)
 ![Alt text](images/confMatrices.png)
 
 Visual differences are near imperceptible:
