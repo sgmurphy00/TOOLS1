@@ -23,8 +23,8 @@ The result is an input image that may look perfectly normal to the human eye, bu
 a classification model perform with much less accuracy than a typical input image.
 
 This capstone project to COMP 4447 aims to demonstrate the effect of this poisoned data- first, by building a simple, yet
->90% accurate convolutional neural network to classify DEEPSAT6 terrain imagery, then generating adversarial inputs
-using FGSM, demonstrating the effect of adversarial inputs on model performance, and exploring statistical differences
+over 90% accurate convolutional neural network to classify DEEPSAT6 terrain imagery, then generating adversarial inputs
+using FGSM, demonstrating the effect of adversarial inputs on model performance, and exploring statistical and visual differences
 between the adversarial and clean samples.
 
 ## Data Requirements
