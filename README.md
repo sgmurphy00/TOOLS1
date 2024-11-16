@@ -53,9 +53,9 @@ Simple model metrics: \
 Adversarial Mean: [113.3134  115.37391 114.29599 108.61201] \
 Adversarial Std: [54.51268  47.67143  36.985027 76.23391 ] \
 Clean Mean: [113.27197321 115.36691607 114.38267347 109.08337219] \
-Clean Std: [54.65728377 47.75091567 37.07641239 76.38291389] \
+Clean Std: [54.65728377 47.75091567 37.07641239 76.38291389]
 
-Visual differences are near imperceptible: \
+Visual differences are near imperceptible:
 
 ![Alt text](images/exampleImages.png)
 
