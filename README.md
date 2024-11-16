@@ -36,6 +36,8 @@ This dataset includes ~405,000 image arrays and labels of dimension (28,28,4). D
 categories: Barren land, road, construction, treecover, grassland, and water. Data takes roughly 6gB storage altogether.
 Available at https://www.kaggle.com/datasets/crawford/deepsat-sat6
 
+![Alt text](images/exampleImages.png)
+
 ## Model Architecture
 
 ![Alt text](images/modelarch.png)
@@ -55,9 +57,15 @@ Adversarial Std: [54.51268  47.67143  36.985027 76.23391 ] \
 Clean Mean: [113.27197321 115.36691607 114.38267347 109.08337219] \
 Clean Std: [54.65728377 47.75091567 37.07641239 76.38291389]
 
+Complex model confusion matrices under different epsilon values:
+
+![Alt text](images/confMatrices.png)
+
 Visual differences are near imperceptible:
 
-![Alt text](images/exampleImages.png)
+![Alt text](images/adverseThenClean.png)
+
+
 
 # Contributors
 @sgmurphy00
